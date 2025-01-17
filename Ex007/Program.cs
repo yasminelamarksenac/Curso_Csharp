@@ -13,13 +13,19 @@ namespace Ex007
             {
                 resultado = "Aprovado";
             }
+            
+            else if (nota_final >= 40 )
+            {
+              resultado = "Recuperação";
+            }
             else
             {
-                resultado = "Reprovado";
+                resultado = "Recuperação";
             }
+                
+        
 
-
-            Console.WriteLine("O aluno foi {0}.", resultado);
+            Console.WriteLine("O aluno esta de {0}.", resultado);
 
         }
     }
